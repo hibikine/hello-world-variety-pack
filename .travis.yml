@@ -1,35 +1,37 @@
 matrix:
     include:
-      - language: c
-        script:
-              # bash
-            - cd bash
-            - ./hello
-            - cd ..
-              # C
-            - cd c
-            - make
-            - ./hello
-            - cd ..
-              # C++
-            - cd cpp
-            - make && ./hello
-            - cd ..
-              # Perl5
-            - cd perl5
-            - perl hello.pl
-            - cd ..
-              # Python2
-            - cd python2
-            - python hello.py
-            - cd ..
-              # Python3
-            - cd python3
-            - python3 hello.py
-            - cd ..
-      - language: rust
-              # Rust
-            - cd rust
-            - cargo run
-            - cd ..
+        - language: c
+          script:
+                # bash
+              - cd bash
+              - ./hello
+              - cd ..
+                # C
+              - cd c
+              - make
+              - ./hello
+              - cd ..
+                # C++
+              - cd cpp
+              - make && ./hello
+              - cd ..
+                # Perl5
+              - cd perl5
+              - perl hello.pl
+              - cd ..
+                # Python2
+              - cd python2
+              - python hello.py
+              - cd ..
+                # Python3
+              - cd python3
+              - python3 hello.py
+              - cd ..
+
+        - language: rust
+          script:
+                # Rust
+              - cd rust
+              - cargo run
+              - cd ..
 
