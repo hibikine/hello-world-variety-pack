@@ -7,6 +7,7 @@ Lots of languages makes me fun!
 ## Languages
 
 * C
+* C++
 * Python2
 * Python3
 
