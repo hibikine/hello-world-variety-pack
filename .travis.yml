@@ -1,5 +1,6 @@
 language: c
 script:
     - cd c && make && ./hello && cd ..
+    - cd python2 && python hello.py && cd ..
     - cd python3 && python3 hello.py && cd ..
 
