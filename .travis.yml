@@ -28,6 +28,13 @@ matrix:
               - python3 hello.py
               - cd ..
 
+        - language: ruby
+          script:
+                # Rails
+              - cd rails
+              - bundle install
+              - rails test
+              - cd ..
         - language: rust
           script:
                 # Rust
