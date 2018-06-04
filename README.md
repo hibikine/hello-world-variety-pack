@@ -9,6 +9,7 @@ Lots of languages makes me fun!
 * Bash
 * C
 * C++
+* Perl5
 * Python2
 * Python3
 

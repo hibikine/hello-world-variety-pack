@@ -3,6 +3,7 @@ script:
     - cd bash && ./hello && cd ..
     - cd c && make && ./hello && cd ..
     - cd cpp && make && ./hello && cd ..
+    - cd perl5 && perl hello.pl && cd ..
     - cd python2 && python hello.py && cd ..
     - cd python3 && python3 hello.py && cd ..
 
