@@ -6,6 +6,7 @@ Lots of languages makes me fun!
 
 ## Languages
 
+* Bash
 * C
 * C++
 * Python2

@@ -1,0 +1,8 @@
+# Bash
+
+# Run
+
+```bash
+./hello
+```
+
