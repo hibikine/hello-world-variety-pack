@@ -4,7 +4,7 @@
 
 Lots of languages makes me fun!
 
-## Languages
+## Languages / Libraries / Frameworks
 
 * Bash
 * C
@@ -12,5 +12,6 @@ Lots of languages makes me fun!
 * Perl5
 * Python2
 * Python3
+* Ruby on Rails
 * Rust
 
