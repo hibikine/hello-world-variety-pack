@@ -12,4 +12,5 @@ Lots of languages makes me fun!
 * Perl5
 * Python2
 * Python3
+* Rust
 
