@@ -28,6 +28,14 @@ matrix:
               - python3 hello.py
               - cd ..
 
+        - language: node_js
+          node_js: "8"
+          script:
+              - cd typescript
+              - yarn
+              - yarn build
+              - yarn hello
+              - cd ..
         - language: ruby
           rvm: 2.5.1
           script:
