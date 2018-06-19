@@ -28,6 +28,10 @@ matrix:
               - python3 hello.py
               - cd ..
 
+        - language: erlang
+          script:
+              - cd erlang
+              - erl -run hello hello_world -run Init stop
         - language: go
           go: "1.x"
           script:
