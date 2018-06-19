@@ -28,6 +28,12 @@ matrix:
               - python3 hello.py
               - cd ..
 
+        - language: go
+          go: "1.x"
+          script:
+              - cd go
+              - go run hello.go
+
         - language: node_js
           node_js: "8"
           script:
