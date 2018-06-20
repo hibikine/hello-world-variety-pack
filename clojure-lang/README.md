@@ -1,0 +1,7 @@
+# Clojure
+
+## Run
+
+```
+lein run
+```

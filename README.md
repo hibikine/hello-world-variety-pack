@@ -9,6 +9,7 @@ Lots of languages makes me fun!
 - Bash
 - C
 - C++
+- Clojure
 - Go
 - Perl5
 - Python2
