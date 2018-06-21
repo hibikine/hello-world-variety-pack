@@ -31,7 +31,8 @@ matrix:
         - language: erlang
           script:
               - cd erlang
-              - erl -run hello hello_world -run Init stop
+              - erl -compile hello
+              - erl -noshell -s hello hello_world -s Init stop
         - language: go
           go: "1.x"
           script:
