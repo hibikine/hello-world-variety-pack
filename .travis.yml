@@ -28,6 +28,13 @@ matrix:
               - python3 hello.py
               - cd ..
 
+        - language: erlang
+          otp_release:
+              - "20.1"
+          script:
+              - cd erlang
+              - erl -compile hello
+              - erl -noshell -s hello hello_world -eval 'init:stop()'
         - language: go
           go: "1.x"
           script:
