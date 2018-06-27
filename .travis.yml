@@ -32,7 +32,7 @@ matrix:
           script:
               - cd erlang
               - erl -compile hello
-              - erl -noshell -s hello hello_world -s Init stop
+              - erl -noshell -s hello hello_world -eval 'init:stop()'
         - language: go
           go: "1.x"
           script:
