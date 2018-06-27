@@ -29,6 +29,8 @@ matrix:
               - cd ..
 
         - language: erlang
+          otp_release:
+              - "20.1"
           script:
               - cd erlang
               - erl -compile hello
