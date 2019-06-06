@@ -1,0 +1,5 @@
+# JavaScript
+
+```bash
+npm start
+```
