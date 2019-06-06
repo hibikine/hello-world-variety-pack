@@ -29,6 +29,7 @@ matrix:
               - cd ..
 
         - language: erlang
+          erlang: 18.2.1
           script:
               - cd erlang
               - erl -compile hello
