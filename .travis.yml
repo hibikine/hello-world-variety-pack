@@ -40,7 +40,12 @@ matrix:
           script:
               - cd go
               - go run hello.go
-
+        - language: node_js
+          node_js: "8"
+          script:
+              - cd javascript
+              - npm start
+              - cd ..
         - language: node_js
           node_js: "8"
           script:

@@ -1,0 +1,7 @@
+{
+    "name": "hello-world-variety-pack-javascript",
+    "description": "Hello world by javascript",
+    "scripts": {
+        "start": "node ./index.js"
+    }
+}
